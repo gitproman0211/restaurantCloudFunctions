@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e62df35e-5da6-4968-a48c-84b1f7288ee2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1iXGb7Fd383mGLlJZFq4veK0AUc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="13.8.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="13.13.23" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/functions" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\WebstormProjects\restaurant\functions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\WebstormProjects\restaurant\functions" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e62df35e-5da6-4968-a48c-84b1f7288ee2" name="Default Changelist" comment="" />
+      <created>1602046593628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602046593628</updated>
+      <workItem from="1602046596093" duration="1613000" />
+      <workItem from="1602048356718" duration="1482000" />
+      <workItem from="1602050268775" duration="1268000" />
+      <workItem from="1602054743598" duration="605000" />
+      <workItem from="1602057023133" duration="1794000" />
+      <workItem from="1602058837479" duration="1245000" />
+      <workItem from="1602062937860" duration="1794000" />
+      <workItem from="1602064750827" duration="2122000" />
+      <workItem from="1602067702506" duration="2304000" />
+      <workItem from="1602070022868" duration="966000" />
+      <workItem from="1602071848976" duration="2795000" />
+      <workItem from="1602076058257" duration="670000" />
+      <workItem from="1602152226882" duration="1790000" />
+      <workItem from="1602154044963" duration="1181000" />
+      <workItem from="1602155851617" duration="1831000" />
+      <workItem from="1602157701502" duration="1270000" />
+      <workItem from="1602159515318" duration="599000" />
+      <workItem from="1602161332755" duration="1861000" />
+      <workItem from="1602163548212" duration="599000" />
+      <workItem from="1602166097082" duration="1702000" />
+      <workItem from="1602167917916" duration="1525000" />
+      <workItem from="1602169897408" duration="1339000" />
+      <workItem from="1602224008280" duration="751000" />
+      <workItem from="1602231395037" duration="9183000" />
+      <workItem from="1602240605724" duration="1872000" />
+      <workItem from="1602242494586" duration="1260000" />
+      <workItem from="1602316484036" duration="1129000" />
+      <workItem from="1602325115892" duration="1403000" />
+      <workItem from="1602326953920" duration="1701000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602047197802">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602047197802" />
+  </component>
+</project>
