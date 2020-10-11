@@ -124,11 +124,54 @@ async function sendToAllUserDevices(tokens,notificationMessage){
   console.log(tokens);
   await fcm.sendToDevice(tokens.filter((value)=>value!==undefined),payload,options)
 }
-// exports.sendNotification = functions.firestore
-//     .document(`orders/{newOrderId}`)
-//     .onCreate(async (snap, context) => {
-//       sendToDevice().then(val=>respond.send(val)).catch(e=>response.send(e.toString()));
-//     });
+exports.sendNotificationToDevice = functions.firestore
+    .document(`orders/{OrderId}`)
+    .onUpdate(async(change, context) => {
+      const newValue = change.after.data();
+      const userId = newValue.userId;
+      const status=newValue.status;
+      console.log("fetched userId="+userId);
+      const userRef=  db.collection("users").doc(userId);
+      const doc = await userRef.get();
+
+      const data=doc.data();
+      const token=data["token"];
+
+      console.log("printing user token");
+      console.log(token);
+      const payload = {
+        notification: {
+          title: "Nueva notificación",
+          body: "Your order status changed : "+status,
+        },
+      };
+      await fcm.sendToDevice(token,payload,options)
+
+});
+exports.sendNotificationOrderCreateToDevice = functions.firestore
+    .document(`orders/{OrderId}`)
+    .onCreate(async(snap, context) => {
+      const newValue = snap.data();
+      const userId = newValue.userId;
+      const status=newValue.status;
+      console.log("fetched userId="+userId);
+      const userRef=  db.collection("users").doc(userId);
+      const doc = await userRef.get();
+
+      const data=doc.data();
+      const token=data["token"];
+
+      console.log("printing user token");
+      console.log(token);
+      const payload = {
+        notification: {
+          title: "Nueva notificación",
+          body: "Your order status changed : "+status,
+        },
+      };
+      await fcm.sendToDevice(token,payload,options)
+
+    });
 exports.sendNotificationR1 = functions.https.onRequest (async(request, response) => {
    await fetchTokens();
     await sendToDevice(tokensR1);
